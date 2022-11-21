@@ -44,7 +44,13 @@ Data leakage happens when data ends up somewhere it’s not supposed to be. Data
 
 <h3>Prevention</h3>
 
-Apply POLP and 2FA to prevent unauthorized use of resources
+<ol>
+<li>POLP is an idea where people apply the practice of minimizing data access by restricting access rights for users in a data system. Granting the minimum level of user rights allows them to acces specific resources needed only to perform their role. The reduces the risk of exploitation and improves productivity.</li>
+
+
+<li>Multi-Factor authentication can enforce data confidentiality. In our WordPress, we used the miniOrange plugin to implement this feature, where we used one-time passwords through Telegram for authentication</li>
+
+</ol>
 
 <h3>FAQ</h3> 
   
